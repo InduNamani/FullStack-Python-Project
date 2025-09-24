@@ -71,7 +71,7 @@ Ends session and redirects to homepage.
 
  ## 1. clone or Download the project
  # option 1: Clone with git
- git clone <repository url>
+ git clone <repository link>
 
  # option 2: Download and extract the zip file
 
