@@ -37,13 +37,13 @@ def add_book(title: str, author: str, description: str = None, cover_image: str 
         "description": description,
         "cover_image": cover_image
     }
-    response = supabase.table("books").insert(data).execute()  # <- corrected table name
+    response = supabase.table("book").insert(data).execute()  # <- corrected table name
     return response
 
 
 def get_all_books():
     """Fetch all books"""
-    response = supabase.table("books").select("*").execute()  # <- corrected table name
+    response = supabase.table("book").select("*").execute()  # <- corrected table name
     return response
 
 
